@@ -47,6 +47,28 @@ let str2 = " Raj";
 // num1=num2=num3=2;
 // console.log(num1);
 
-let counter=0;
-counter++;
-console.log(counter);
+// let counter=0;
+// counter++;
+// console.log(counter);
+
+//*********************************************Comparisons**************************************************
+
+// console.log(2==1)
+// console.log(2>1)
+// console.log(2<1)
+// console.log(2!=1)
+
+// console.log("2">1);
+// console.log("02">1);
+
+// console.log(null>0);
+// console.log(null==0);
+// console.log(null>= 0);
+
+// console.log(undefined>1);
+// console.log(undefined==1);
+// console.log(undefined>= 1);
+
+//===  Checks the value as well as the datatype//
+console.log("2"===2);
+
