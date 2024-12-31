@@ -12,11 +12,41 @@ true => 1 ,false =>0*/
 
 let isLoggedin = "Name";
 let booleanLogged = Boolean(isLoggedin);
-console.log(typeof (booleanLogged))
-console.log(booleanLogged)
+//console.log(typeof (booleanLogged))
+//console.log(booleanLogged)
 
 // " " =>false , "Name" => true
 let n = 45;
 let toString = String(n);
-console.log(toString);
-console.log(typeof(toString))
+//console.log(toString);
+//console.log(typeof(toString)) 
+
+
+//*************************************Operations*****************************************/
+
+let value = 3;
+let negvalue = -value;
+//console.log(negvalue);
+
+let str1 = "Hello";
+let str2 = " Raj";
+//console.log(str1 + str2 );
+
+//console.log("1"+ 2);
+
+// console.log("1" + 2 + 2);
+
+// console.log(1+"2"+2);
+
+// console.log(1+2+"3");
+
+// console.log(true )
+
+// //console.log(+true);
+// let num1,num2,num3;
+// num1=num2=num3=2;
+// console.log(num1);
+
+let counter=0;
+counter++;
+console.log(counter);
