@@ -34,29 +34,38 @@
 // console.log(res1)
 
 
-function CalculateCartPrice(val1,val2,...num1)//Rest Operator,val1 and val2 will be the first two values in the call,while the only element in num1 will be [1000]
+function CalculateCartPrice(val1, val2, ...num1)//Rest Operator,val1 and val2 will be the first two values in the call,while the only element in num1 will be [1000]
 {
     return num1
 }
 
-console.log(CalculateCartPrice(200,5,1000))
+console.log(CalculateCartPrice(200, 5, 1000))
 
 
-const user ={
-    name:"Raj",
-    price:199
+const user = {
+    name: "Raj",
+    price: 199
 }
-function handleObject(obj)
-{
+function handleObject(obj) {
     console.log(`username is ${obj.name} and price is ${obj.price}`)
 }
 handleObject(user)
 
-const myarr= [100,200,300]
+const myarr = [100, 200, 300]
 
-function returnVal(arr)
-{
+function returnVal(arr) {
     return arr[1];
 }
 
 console.log(returnVal(myarr))
+/*******************************************Scope******************************************************/
+if (true) {
+    let a = 10
+    const b = 20
+    var c = 30
+}
+
+
+console.log(a)
+console.log(b);
+console.log(c)
