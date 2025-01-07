@@ -66,6 +66,36 @@ if (true) {
 }
 
 
-console.log(a)
-console.log(b);
+//console.log(a)
+//console.log(b);
 console.log(c)
+
+
+function one()
+{
+    const username="Raj";
+    function two()
+    {
+        const website = "Youtube";
+        console.log(username)
+    }
+    console.log(website)
+    two()
+}
+
+one()
+
+//*****************************************Interesting**************************************** */
+
+function addOne(num)
+{
+    return num+1;
+}
+addOne(7)
+
+const addTwo = function(num)
+{
+    return num + 2;
+}
+
+addTwo(7)
